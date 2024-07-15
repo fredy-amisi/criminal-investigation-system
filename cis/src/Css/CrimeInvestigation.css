@@ -1,0 +1,323 @@
+.crime-investigation-section {
+    width: 100%;
+    height: 1100px;
+    background-color: whitesmoke;
+}
+
+.vertical-crime-investigation {
+    height: 10vh;
+    width: 2px;
+    background-color: orange;
+    position: absolute;
+    float: left;
+    margin-top: 15vh;
+    margin-left: 15vh;
+}
+
+.crime-investigation-section h1 {
+    padding-top: 15vh;
+    margin-left: 20vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    color: rgb(1, 1, 90);
+    font-weight: bolder;
+}
+
+.crime-investigation-section h1 span {
+    color: orange;
+}
+
+.crime-investigation-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 80%;
+    height: 700px;
+    margin: 0 auto;
+    margin-top: 30vh;
+    background-color: rgb(245, 243, 243);
+    box-shadow: 10px 10px 20px 20px rgb(198, 198, 252);
+}
+
+.crime-investigation-item {
+    height: 30vh;
+    width: 30%;
+    margin: 10px;
+    margin: 0 auto;
+    border-radius: 10px;
+    transition: transform 0.3s, background-color 0.3s;
+    cursor: pointer;
+    background-color: whitesmoke;
+    color: black;
+    box-shadow: 8px 8px 10px 10px rgba(161, 197, 245, 0.7);
+}
+
+.crime-investigation-item:hover {
+    background: linear-gradient(to right, rgb(1, 1, 90), #e7a33c);
+    transform: translateY(-20px);
+    color: white;
+}
+
+.crime-investigation-item h3 {
+    margin-top: 10vh;
+    text-align: center;
+}
+
+.crime-investigation-item p {
+    margin: 10px 10px 20px;
+}
+
+@media only screen and (max-width: 480px) {
+    .crime-investigation-section {
+        width: 100%;
+        height: auto;
+        background-color: whitesmoke;
+        margin-left: 0;
+    }
+
+    .vertical-crime-investigation {
+        height: 18vh;
+        width: 2px;
+        background-color: orange;
+        position: absolute;
+        float: left;
+        margin-top: 5vh;
+        margin-left: 5vh;
+    }
+
+    .crime-investigation-section h1 {
+        padding-top: 5vh;
+        margin-left: 8vh;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 30px;
+        color: rgb(1, 1, 90);
+        font-weight: bolder;
+    }
+
+    .crime-investigation-section h1 span {
+        color: orange;
+    }
+
+    .crime-investigation-container {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        width: 98%;
+        height: auto;
+        margin: 0 auto;
+        margin-top: 10vh;
+        background-color: rgb(245, 243, 243);
+        box-shadow: 10px 10px 20px 20px rgb(198, 198, 252);
+        border-radius: 10px;
+    }
+
+    .crime-investigation-item {
+        height: auto;
+        width: 30%;
+        margin: 3% auto;
+        border-radius: 10px;
+        transition: transform 0.3s, background-color 0.3s;
+        cursor: pointer;
+        background-color: whitesmoke;
+        color: black;
+        box-shadow: 8px 8px 10px 10px rgba(161, 197, 245, 0.7);
+    }
+
+    .crime-investigation-item:hover {
+        background: linear-gradient(to right, rgb(1, 1, 90), #e7a33c);
+        transform: translateY(-20px);
+        color: white;
+    }
+
+    .crime-investigation-item h3 {
+        margin-top: 1vh;
+        text-align: center;
+        color: rgb(1, 1, 90);
+        font-size: 16px;
+    }
+
+    .crime-investigation-item p {
+        margin-top: 30%;
+        font-size: 68%;
+        font-weight: bold;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 2048px) {
+    .crime-investigation-section {
+        width: 100%;
+        height: auto;
+        background-color: whitesmoke;
+    }
+
+    .vertical-crime-investigation {
+        height: 8%;
+        width: 3px;
+        background-color: orange;
+        position: absolute;
+        float: left;
+        margin-top: 5%;
+        margin-left: 10%;
+    }
+
+    .crime-investigation-section h1 {
+        padding-top: 7%;
+        margin-left: 13%;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 50px;
+        color: rgb(1, 1, 90);
+        font-weight: bolder;
+    }
+
+    .crime-investigation-section h1 span {
+        color: orange;
+    }
+
+    .crime-investigation-container {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        width: 97%;
+        height: auto;
+        margin: 7% auto;
+        background-color: rgb(245, 243, 243);
+        box-shadow: 10px 10px 20px 20px rgb(198, 198, 252);
+    }
+
+    .crime-investigation-item {
+        height: auto;
+        width: 30%;
+        margin: 3% auto;
+        border-radius: 10px;
+        transition: transform 0.3s, background-color 0.3s;
+        cursor: pointer;
+        background-color: whitesmoke;
+        color: black;
+        box-shadow: 8px 8px 10px 10px rgba(161, 197, 245, 0.7);
+    }
+
+    .crime-investigation-item:hover {
+        background: linear-gradient(to right, rgb(1, 1, 90), #e7a33c);
+        transform: translateY(-20px);
+        color: white;
+    }
+
+    .crime-investigation-item h3 {
+        margin-top: 25%;
+        text-align: center;
+        color: rgb(1, 1, 90);
+        font-size: 30px;
+    }
+
+    .crime-investigation-item p {
+        margin: 10px 10px 20px;
+        margin-bottom: 20%;
+        font-size: 25px;
+        font-weight: bold;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 2048px) and (max-height: 990px) {
+    .crime-investigation-section {
+        width: 100%;
+        height: auto;
+        background-color: whitesmoke;
+    }
+
+    .vertical-crime-investigation {
+        height: 13vh;
+        width: 2px;
+        background-color: orange;
+        position: absolute;
+        float: left;
+        margin-top: 2%;
+        margin-left: 15vh;
+    }
+
+    .crime-investigation-section h1 {
+        padding-top: 2%;
+        margin-left: 20vh;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 200%;
+        color: rgb(1, 1, 90);
+        font-weight: bolder;
+    }
+
+    .crime-investigation-section h1 span {
+        color: orange;
+    }
+
+    .crime-investigation-container {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        justify-content: flex-start;
+        width: 85%;
+        height: auto;
+        margin: 3% auto;
+        background-color: rgb(245, 243, 243);
+        box-shadow: 10px 10px 20px 20px grey;
+        border-radius: 10px;
+    }
+
+    .crime-investigation-item {
+        height: auto;
+        width: 20%;
+        margin: 1% auto;
+        border-radius: 10px;
+        margin-left: 1%;
+        transition: transform 0.3s, background-color 0.3s;
+        cursor: pointer;
+        background-color: whitesmoke;
+        color: black;
+        box-shadow: 8px 8px 10px 10px rgba(161, 197, 245, 0.7);
+    }
+
+    .crime-investigation-item:hover {
+        background: linear-gradient(to right, rgb(248, 203, 210), rgb(238, 125, 238));
+        transform: translateY(-20px);
+        color: black;
+    }
+
+    .crime-investigation-item h3 {
+        margin-top: 2vh;
+        text-align: center;
+        font-size: 100%;
+    }
+
+    .crime-investigation-item p {
+        margin: 10px 10px 20px;
+        font-size: 100%;
+        font-weight: 500;
+    }
+
+    .cii-images {
+        width: 100%;
+        height: 50vh;
+        display: block;
+        border-radius: 10px;
+    }
+
+    .price {
+        text-align: center;
+        color: blue;
+    }
+
+    .b-appointment {
+        background: linear-gradient(to right, purple, pink);
+        color: black;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 10px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background-color 0.3s, color 0.3s;
+        margin-left: 10%;
+    }
+
+    .b-appointment:hover {
+        transform: translateY(-10px);
+        background: linear-gradient(to right, pink, purple);
+        color: white;
+    }
+}

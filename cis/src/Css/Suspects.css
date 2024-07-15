@@ -1,0 +1,62 @@
+/* Suspects.css */
+
+.suspects-container {
+    width: 80%;
+    margin: 20px auto;
+}
+
+.suspects-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.suspects-table th, .suspects-table td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.suspects-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    color: #333;
+}
+
+.suspects-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.suspects-table tbody tr:hover {
+    background-color: #e0e0e0;
+}
+
+.details-link, .delete-btn {
+    display: inline-block;
+    padding: 6px 10px;
+    margin-right: 5px;
+    font-size: 14px;
+    text-decoration: none;
+    color: #007bff;
+    border: 1px solid #007bff;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.details-link:hover, .delete-btn:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.delete-btn {
+    background-color: #dc3545;
+    border-color: #dc3545;
+    color: #fff;
+}
+
+.delete-btn:hover {
+    background-color: #c82333;
+    border-color: #bd2130;
+}

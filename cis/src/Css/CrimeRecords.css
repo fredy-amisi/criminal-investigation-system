@@ -1,0 +1,65 @@
+.crime-records {
+    margin: 20px;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.crime-records h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.crime-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.crime-table th, .crime-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+.crime-table th {
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+.crime-table td {
+    font-size: 14px;
+    color: #555;
+}
+
+.crime-table tbody tr:hover {
+    background-color: #f9f9f9;
+}
+
+.details-link {
+    color: #007bff;
+    text-decoration: none;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.details-link:hover {
+    text-decoration: underline;
+}
+
+.delete-btn {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.delete-btn:hover {
+    background-color: #c82333;
+}

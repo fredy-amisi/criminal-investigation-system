@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+.signin-container {
+    width: 70%;
+    margin: 1% auto;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    background-color: #fff;
+    box-shadow: 10px 10px 10px 10px rgb(151, 151, 248);
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.signin-container h2 {
+    text-align: center;
+    color: rgb(1, 1, 90);
+    margin-bottom: 20px;
+}
+
+.overral-divs {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.div1,
+.div2 {
+    flex: 1;
+}
+
+.div1 > div,
+.div2 > div {
+    margin-bottom: 15px;
+}
+
+input[type="name"],
+input[type="email"],
+input[type="username"],
+input[type="tel"],
+select.select {
+    width: calc(100% - 20px);
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+input[type="password"] {
+    width: calc(100% - 50px);
+}
+
+.select {
+    background-color: #fff;
+    color: #333;
+}
+
+.div {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.div input[type="submit"] {
+    width: 30%;
+    background: linear-gradient(to right, blue, grey);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.div input[type="submit"]:hover {
+    background-color: darkblue;
+}
+
+.div-p {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.div-p a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.div-p a:hover {
+    color: orange;
+}
+
+.toggleButton {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: #007BFF;
+    font-size: 15px;
+    padding: 10px;
+}
+
+@media (max-width: 768px) {
+    .signin-container {
+        width: 90%;
+    }
+}

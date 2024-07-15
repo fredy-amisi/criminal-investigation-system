@@ -1,0 +1,26 @@
+#scrollToTopBtn {
+    display: none;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 50px;
+    height: 50px;
+    background-color: #1a73e8;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    font-size: 24px;
+  }
+  
+  #scrollToTopBtn:hover {
+    background-color: #135ab5;
+    transform: translateY(-5px);
+  }
+  
+  #scrollToTopBtn:focus {
+    outline: none;
+  }
+  
